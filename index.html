@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font (Poppins) - from Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Projek Akhir</title>
+
+    <!-- Icon - from Font Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Home -->
+    <header>
+        <nav class="navbar">
+            <h2 class="name"><span>Azhar</span>Hanif</h2>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="toggle_btn" onclick="toggleDropdown()">
+                <i class="fa-solid fa-bars" id="menuIcon"></i>
+                <i class="fa-solid fa-xmark" id="closeIcon" style="display: none;"></i>
+            </div>
+            <div class="dropdownMenu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>    
+    <main>
+        <div id="home" class="main-section-one">
+            <div class="image">
+                <img src="assets/image/image.png" alt="">
+            </div>
+            <h2 class="sub-title"><span>Azhar</span>Hanif</h2>
+            <h4 class="description">Student of Electronics and Instrumentation<br>Gadjah Mada University</h4>
+        </div>
+        <!-- About -->
+        <div id="about" class="about">
+            <article class="article">
+                <h2>Hello, I am Azhar Ilyas Hanifa</h2>
+                <h4>Currently, I am a student at the Faculty of Mathematics and Natural Sciences, Universitas Gadjah Mada, focusing on the Department of Electronics and Instrumentation.</h4>
+                <p>
+                    My main interest lies in the world of programming and the Internet of Things (IoT). I have valuable experience as part of the Gadjah Mada Robotic Team, a community that focuses on the development of robotics. In this community, I showed my dedication as a programmer and successfully brought my team to the national level. I believe that my enthusiasm for learning, interest in programming and IoT, and experience in the robotics community, will be a positive contribution to the project or team that I join.
+                </p>
+            </article>
+            <aside class="aside">
+                <img src="assets/image/profile.png" alt="profile">
+                <div class="about-box">
+                    <h4>Cloud Computing Learning Path</h4>
+                    <p>Bangkit Academy 2024</p>
+                </div>
+            </aside>
+        </div>
+
+        <!-- Experience -->
+        <div id="experience" class="pengalaman">
+            <h2>Experience</h2>
+            <div class="row-pengalaman">
+                <div class="pengalaman-box">
+                    <h2>Elins Research Club</h2>
+                    <p>Programmer at Linux and Networking</p>
+                </div>
+                <div class="pengalaman-box">
+                    <h2>Gadjah Mada Robotic Team</h2>
+                    <p>Head of Hardware Programmer</p>
+                </div>
+                <div class="pengalaman-box">
+                    <h2>Elins Research Club</h2>
+                    <p>Programmer at Website Development</p>
+                </div>
+                <div class="pengalaman-box">
+                    <h2>Bangkit Academy</h2>
+                    <p>Cloud Computing Learning Path</p>
+                </div>
+                <div class="pengalaman-box">
+                    <h2>Lab Assistant</h2>
+                    <p>Prototype & Analog Electronic</p>
+                </div>
+                <div class="pengalaman-box">
+                    <h2>VEX Robotics</h2>
+                    <p>Volunteer for 16th VEX Asia-Pasific Robotics Championship</p>
+                </div>
+            </div>
+        </div>
+        <!-- Sosial Media -->
+         <div id="contact" class="social-media">
+            <h2>Social Media</h2>
+            <div class="social-media-icon">
+                <div class="icon">
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                </div>
+                <div class="icon">
+                    <a target="_blank" href="https://www.instagram.com/azrhnip?igsh=MW9oOXFnem5yNzFlbQ=="><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="icon">
+                    <a target="_blank" href="https://www.linkedin.com/in/azharilyas/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="icon">
+                    <a target="_blank" href="https://github.com/hanifazhar"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+         </div>
+
+         <!-- Contact -->
+        <div class="contact">
+        <h2>Contact</h2>
+            <div class="contact-section">
+                <div class="group">
+                    <div class="contact-icon">
+                        <a href="#"><i class="fab fa-sistrix"></i></a>
+                    </div>
+                    <h4 class="description-contact">azharhanif04@gmail.com</h4>
+                </div>
+                <div class="group">
+                    <div class="contact-icon">
+                        <a href="#"><i class="fab fa-periscope"></i></a>
+                    </div>
+                    <h4 class="description-contact">Sleman, Yogyakarta</h4>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer id="footer">
+        <p>
+            Cloud Computing Cohort &copy; Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka
+        </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
